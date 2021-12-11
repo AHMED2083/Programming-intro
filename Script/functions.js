@@ -24,3 +24,20 @@ function login(UesrName, PassWord) {
 login("sdhjsdh", 123);
 login("AHMED", 23468);
 login("AHMED", 1234);
+
+// #4 moyenne
+
+var studentList = [14, 11, 11, 10, 5];
+
+function calculateMoy() {
+  var sum = 0;
+  for (var i = 0; i < studentList.length; i++) {
+    sum = sum + studentList[i];
+  }
+  var moy = sum / studentList.length;
+  console.log(moy);
+  
+  }
+}
+
+calculateMoy();
