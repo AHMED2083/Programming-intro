@@ -37,12 +37,37 @@
 // }
 // generatFullname("ahmed", "ait si said");
 
-function printIamDev () {
-  for (var i = 1 ; i <= 3 ; i ++ ){
-    var b = b + i;
-    console.log(b);
+//function whil
+
+// function printIamDev() {
+//   var x = 0;
+//   while (x < 5) {
+//     console.log("i'm FS JS");
+//     x++;
+//   }
+// }
+// printIamDev();
+
+// #2
+
+// function printIamDev() {
+//   var x = 0;
+//   var y = 0;
+//   var z = 0;
+//   while (y < 6 && x < 5 || z < 8) {
+//     x++;
+//     y = y + 2;
+//     z = z + 4;
+//     console.log("y=>", y);
+//     console.log("x=>", x);
+//     console.log("z=>", z);
+//   }
+// }
+// printIamDev();
+
+
+function printIamDev() {
+  var x = 0;
+  
   }
-}
-printIamDev()
-
-
+printIamDev();
