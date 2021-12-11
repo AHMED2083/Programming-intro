@@ -24,3 +24,15 @@ function generateSum(n1, n2, n3) {
   }
 }
 generateSum(7, 2, 6);
+
+// conditionner pour que les deux n soit string
+
+function generatFullname(FirstName, LastName) {
+  if (typeof FirstName == "string" && typeof LastName == "string") {
+    var fullName = FirstName + " " + LastName;
+    console.log(fullName)
+  } else {
+    console.log("first or last name should be string");
+  }
+}
+generatFullname("ahmed", "ait si said");
