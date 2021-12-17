@@ -41,16 +41,19 @@
 // }
 
 
-function squar(input){
-  if (typeof input === "number") {
-    var result = input * input;
-    return result;
-  }else{
-    return ("input is not a number!!!!!");
-  }
-}
+// function squar(input){
+//   if (typeof input === "number") {
+//     var result = input * input;
+//     return result;
+//   }else{
+//     return ("input is not a number!!!!!");
+//   }
+// }
 
-var r1 = squar(2);
-var r2 = squar("Algeria")
+// var r1 = squar(2);
+// var r2 = squar("Algeria")
 
-console.log(r1, r2);
+// console.log(r1, r2);
+
+
+

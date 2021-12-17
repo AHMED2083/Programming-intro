@@ -66,8 +66,8 @@
 // printIamDev();
 
 
-function printIamDev() {
-  var x = 0;
+// function printIamDev() {
+//   var x = 0;
   
-  }
-printIamDev();
+//   }
+// printIamDev();
