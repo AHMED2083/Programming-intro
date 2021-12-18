@@ -13,11 +13,30 @@ function max(n1, n2) {
 }
 
 // max(4, 15);
+var dzScore = document.getElementById("scoreDZ");
+var tnScore = document.getElementById("scoreTN");
+var prdBTN = document.getElementById("prdBTN")
 
-function predictResultFinal (){
-  var algeriaScore = Math.round(Math.random() * 4);
-  var tunisiaScore = Math.round(Math.random() * 4);
-  console.log("Algeria " + algeriaScore + " - " + tunisiaScore + " Tunisa");
+function predictScoreDZ (){
+  return Math.round(Math.random() * 4)
 }
 
-predictResultFinal()
+function predictScoreTN (){
+  return Math.round(Math.random() * 4)
+}
+
+dzScore.style.textAlign = "center"
+dzScore.style.fontSize = "30px"
+tnScore.style.textAlign = "center"
+tnScore.style.fontSize = "30px"
+dzScore.innerHTML = "0"
+tnScore.innerHTML = "0"
+
+function btnClicked(){
+  var dz = predictScoreDZ();
+  var tn = predictScoreTN();
+  dzScore.innerHTML = dz;
+  tnScore.innerHTML = tn;
+}
+
+prdBTN.addEventListener("click", btnClicked)

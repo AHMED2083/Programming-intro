@@ -1,0 +1,27 @@
+#title{
+font-size: 4rem;
+text-align: center;
+}
+
+.score{
+    display: flex;
+    justify-content: space-around;
+}
+
+.score .country_name{
+text-align: center;
+}
+
+#bordure{
+    border:0.1rem solid rgb(21, 22, 21);
+    }
+
+button{
+    display: block;
+    background-color: firebrick;
+    margin: 3rem auto;
+    padding: 1rem 2rem;
+    color: floralwhite;
+    border-radius: 1rem;
+    border: 0;
+}
