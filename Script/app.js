@@ -1,73 +1,26 @@
-// function generateSum(n1, n2) {
-//   var sum = n1 + n2;
-//   console.log(sum);
-// }
 
-// generateSum(7, 2);
+var global = 19;
 
-// // conditionner pour que les deux n soit numbers
+function printIamDev() {
+    var x = 0;
+    for(var i = 0 ; i < 5 ; i ++){
+        x = x + 4;
+        console.log(i , x);
+        if(x >= 6){
+            break;
+        }else{
+            continue;
+        }
+    }
+}
 
-// function generateSum(n1, n2, n3) {
-//   if (typeof n1 == "number") {
-//     if (typeof n2 == "number") {
-//       if (typeof n3 == "number") {
-//       } else {
-//         console.log("n3 is not numer");
-//       }
-//       var sum = n1 + n2 + n3;
-//       console.log(sum);
-//     } else {
-//       console.log("n2 must be number");
-//     }
-//   } else {
-//     console.log("n1 must be number");
-//   }
-// }
-// generateSum(7, 2, 6);
-
-// // conditionner pour que les deux n soit string
-
-// function generatFullname(FirstName, LastName) {
-//   if (typeof FirstName == "string" && typeof LastName == "string") {
-//     var fullName = FirstName + " " + LastName;
-//     console.log(fullName)
-//   } else {
-//     console.log("first or last name should be string");
-//   }
-// }
-// generatFullname("ahmed", "ait si said");
-
-//function whil
-
-// function printIamDev() {
-//   var x = 0;
-//   while (x < 5) {
-//     console.log("i'm FS JS");
-//     x++;
-//   }
-// }
-// printIamDev();
-
-// #2
-
-// function printIamDev() {
-//   var x = 0;
-//   var y = 0;
-//   var z = 0;
-//   while (y < 6 && x < 5 || z < 8) {
-//     x++;
-//     y = y + 2;
-//     z = z + 4;
-//     console.log("y=>", y);
-//     console.log("x=>", x);
-//     console.log("z=>", z);
-//   }
-// }
 // printIamDev();
 
 
-// function printIamDev() {
-//   var x = 0;
-  
-//   }
-// printIamDev();
+
+
+
+
+
+
+

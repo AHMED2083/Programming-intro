@@ -1,59 +1,86 @@
-// function login(User, PassWord) {
-//   if (User == "ahmed" && PassWord == 123) {
-//     console.log("succeful");
-//   } else {
-//     console.log("error");
-//   }
-// }
-// login("ahmed", 123);
+var originalUserName = "ABDOU";var orignalPassword = 1234;
 
-// var originalUesrName = "AHMED";
-// var originalPassWord = 1234;
+function login(userName, password) {
+    if (userName == originalUserName) {
+        if (password == orignalPassword) {
+            console.log("Login successfuly!");
+        } else {
+            console.log("Wrong password");
+        }
+    } else {
+        console.log("This user does not exist in our db");
+    }
+}
 
-// function login(UesrName, PassWord) {
-//   if (UesrName == originalUesrName) {
-//     if (PassWord == originalPassWord) {
-//       console.log("login succefuly");
-//     } else {
-//       console.log("Wrong password");
-//     }
-//   } else {
-//     console.log("not exist in DB");
-//   }
-// }
-// login("sdhjsdh", 123);
-// login("AHMED", 23468);
-// login("AHMED", 1234);
-
-// // #4 moyenne
-
-// var studentList = [14, 11, 11, 10, 5];
-
-// function calculateMoy() {
-//   var sum = 0;
-//   for (var i = 0; i < studentList.length; i++) {
-//     sum = sum + studentList[i];
-//   }
-//   var moy = sum / studentList.length;
-//   console.log(moy);
-  
-//   }
-// }
+// login("jasdlkfj" , 1234);
+// login("ABDOU" , 9237498);
+// login("ABDOU" , 1234)
 
 
-// function squar(input){
-//   if (typeof input === "number") {
-//     var result = input * input;
-//     return result;
-//   }else{
-//     return ("input is not a number!!!!!");
-//   }
-// }
+var a = 5;
+var b = 10;
+var c = 15;
 
-// var r1 = squar(2);
-// var r2 = squar("Algeria")
+var list = [];
 
-// console.log(r1, r2);
+function storeVariables() {
+    console.log("Before => ", list, list.length);
+    list[0] = a;
+    list[1] = b;
+    list[2] = c;
+    console.log("After => ", list, " length", list.length);
+}
 
 
+
+// storeVariables();
+
+function makeArray() {
+    var anotherList = [];
+
+    for (var i = 1; i <= 10; i++) {
+        if (anotherList.length < 5) {
+            anotherList.push(i * 2)
+        } else {
+            return anotherList;
+        }
+    }
+
+}
+
+// var result = makeArray();
+
+// console.log(result);
+
+var studentList = [10, 12.5, 2, 2, 2 , 19, 0];
+
+function calculateMoy(){
+    var somme = 0;
+    for(var i = 0 ; i < studentList.length ; i++){
+        somme = somme + studentList[i]
+    }
+    var moy = somme / studentList.length ;
+    console.log(moy);
+    if(moy >= 10){
+        console.log("Mabrouk alikoum")
+    }else{
+        console.log("Lah yrebeh :P ")
+    }
+}
+
+
+// calculateMoy();
+
+
+
+
+function square(input){
+    var result = input * input;
+    return result;
+}
+
+
+var rs =  square(9);
+
+// console.log(rs);
 
