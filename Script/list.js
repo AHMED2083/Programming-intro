@@ -17,14 +17,13 @@ storeVariables();
 
 // #2 [1, 2, ........., 10]
 
-function FillArray(){
-    var anotherList = [];
-    for (var i = 1 ; i <= 10 ; i++){
-        anotherList.push(i * 2)
-    }
-    console.log(anotherList);
+function FillArray() {
+  var anotherList = [];
+  for (var i = 1; i <= 10; i++) {
+    anotherList.push(i * 2);
+  }
+  console.log(anotherList);
 }
 FillArray();
 
-// #3 
-
+// #3
